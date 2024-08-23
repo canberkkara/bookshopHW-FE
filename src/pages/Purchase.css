@@ -1,0 +1,90 @@
+.purchasePage{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    height: 100%;
+    width: 70%;
+}
+
+.purchasePage::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40%;
+    width: 1px;
+    height: 80%;
+    background-color: #ffffff; 
+}
+
+.purchaseLeft{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.book-cover-purchase{
+    width: 85%;
+    max-width: 280px;
+}
+
+.amount-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    max-width: 280px;
+}
+
+.price-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    max-width: 280px;
+}
+
+.purchaseRight{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 55%;
+    gap: 2%;
+    padding-right: 5%;
+    padding-left: 2%;
+}
+
+.card-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textarea{
+    resize: none;
+    width: 98%;
+}
+.back-button {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .back-icon{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+  }
+
+  .back-container {
+    display: flex;
+    align-items:first baseline; 
+    gap: 2px; 
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }

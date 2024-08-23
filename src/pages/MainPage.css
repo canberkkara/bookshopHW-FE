@@ -1,0 +1,203 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.mainPage {
+  color: black;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.homepageIcon{
+  margin-right: 10px;
+  margin-left: 25px;
+  margin-top:24px;
+  width: 40px;
+  height: 40px;
+}
+
+.mainPageBar {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  border-bottom:2px solid #00000027;
+}
+
+.search-container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  cursor:pointer;
+}
+
+.search-bar {
+  width: 50%;
+  height: 20px;
+  margin-top: 30px;
+  margin-left: 3%;
+  padding: 15px 20px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #333;
+  font-size: 26px;
+  outline: none;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+
+}
+
+.search-bar::placeholder {
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.search-bar:focus {
+  background-color: rgba(128, 128, 128, 0.5);
+  border-color: rgba(84, 84, 84, 0.8);
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 16px;
+  margin-left: calc(3% + 10px);
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  -webkit-text-fill-color: #000000;
+  padding: 5px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.3s ease;
+  margin-top: 25px;
+}
+
+.icon-button:hover {
+  color: #000;
+}
+
+.mainPageGrid {
+  position: absolute;
+  top: 140px;
+  left: 0%;
+  width: 100%;
+  height: calc(100% - 140px);
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.book-list {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  overflow: scroll;
+}
+
+.book {
+  width: 90%;
+  height: 130%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 10px;
+  border-bottom:2px solid #00000027;
+}
+
+.book-info {
+  flex: 1;
+}
+
+.author {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 145px;
+}
+
+.book-button{
+  background-size: cover ;
+  color: transparent;
+  padding: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.mainPageRightSide{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.follow{
+  display: flex;
+  flex-direction: column;
+}
+
+.follow-person{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.saved-part{
+  display: flex;
+  flex-direction: column;
+}
+
+.saved-item{
+  display: flex;
+  flex-direction: column;
+}
+
+.saved-name{
+  display: flex;
+  flex-direction: row;
+}
+
+.book-icon{
+  width: 100px;
+  margin-bottom: 3px;
+}
+
